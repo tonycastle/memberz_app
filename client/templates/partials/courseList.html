@@ -1,0 +1,20 @@
+<template name="courseList">
+  <div class="course_list">
+  	{{#each courses}}
+  	<div class="row first-row">
+  		<div class="col-md-3 course-title">
+			<strong>{{title}}</strong>
+		</div>
+		<div class="col-md-5">
+			{{createdAt}}
+		</div>
+  		<div class="col-md-3">
+  			<a href="/course/{{_id}}">View details</a>
+  		</div>
+  		<div class="col-md-1">
+  			<i class="fa fa-trash"></i>
+  		</div>
+  	</div>	
+  	{{/each}}
+  </div>
+</template>
