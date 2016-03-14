@@ -31,3 +31,6 @@ meteortoys:allthings
 fortawesome:fontawesome
 check
 alanning:roles
+reywood:publish-composite
+momentjs:moment
+velocity:meteor-stubs

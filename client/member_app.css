@@ -13,7 +13,11 @@ body{
 	display: block;
 	margin-right: 10px;
 	color: black;
-
+	cursor: pointer;
+}
+.fa-trash:hover{
+	color: red;
+	cursor: pointer;
 }
 .course-list{
 	margin-bottom: 20px;
